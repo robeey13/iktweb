@@ -1,0 +1,90 @@
+@import url('https://fonts.google.com/specimen/Space+Mono');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+        background-image: linear-gradient(#3D373C, #636562);
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+
+
+.container{
+    height: 100vh;
+    width: 200vh;
+    margin: 20px;
+}
+
+.topos{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.pic{
+    width: 90%;
+    display: block;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+
+
+}
+
+
+.text{
+    color: whitesmoke;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    
+
+}
+
+.fotext{
+    height: 100%;
+    text-align: justify;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.cimtext{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.introtext{
+    padding: 10px;
+}
+
+
+.csimg{
+    width:1280px;
+    height:720px;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+
+.card{
+    background-color: #F6F6EE;
+    min-height: 100%;
+    margin-top: 10px;
+}
+
